@@ -1,0 +1,72 @@
+1.First link
+
+Title:Add new record with missing name.The field is empty.
+
+Severity:3
+Priority:2
+
+Environment:website: www.screencast.com/Chrome
+
+Expected Result:The new record is not add./The submit name doesn't exist in teh table.
+Actual Result:New data has been saved./The new record added in the table in row with ID 4827.
+
+Steps to reproduce:
+1.Navigate to identysoft from site pragmatic.bg / The page is loaded.
+2.Scroll to the left side and choose from users/groups./ The table with records is visible.
+3.Enter add button to submit unique data./Error message.
+
+
+2.Second link
+
+Title:User can register invalid name with unauthorized signs in different section in the site.
+
+Severity:3
+Priority:2
+
+Environment:Chrome
+
+Expected Result: The user can not register name with sign<>, only with lower and upper case, and "-","_",":" and space characters.
+Actual Result: Data has been saved./The record was addes in the section.
+
+Steps to reproduce:
+1.Navigate to identysoft from site pragmatic.bg / The page is loaded
+2.Scroll to the left side and choose from users/groups./ The table with records is visible.
+3.Enter add button to submit name./Error message.
+
+3. Third link
+
+Title:Insert too long string and part of the table is out of the page.
+
+Severity:3
+Priority:3
+
+Environment:Chrome/webpage:www.screencast.com
+
+Expected Result:Unsert short strings and the whole table is in the page.
+Actual Result:User insert long string and the row Scanner is out of page.
+
+Steps to reproduce:
+1.Navigate to screencast.com / The page is loaded
+2.Add new record in table location / The record is saved.
+3.The string is too long./Some rows of the table is out of page.
+
+
+4.Forth link
+
+Title: Register two names in section Configuration with identical name and Url.
+
+Severity:2
+Priority:1
+
+Environment:Chrome
+
+Expected Result:The user can not register the following name. The name and na url exist.
+Actual Result: User register again name and url, which exist with same name.
+
+Steps to reproduce:
+1.Navigate to identysoft from site pragmatic.bg / The page is loaded
+2.Add new configuration in section camera./The record is saved
+3.Add new configuration in the same section with the indentical name and url. Again the record is saved.
+
+
+
